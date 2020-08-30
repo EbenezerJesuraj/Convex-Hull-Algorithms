@@ -1,11 +1,15 @@
 #ifndef _BASICIO_H
 #define _BASICIO_H
+
 #include <vector>
 #include "Point.h"
+
 class BasicIO{
+
 private:
     char *fileName;
     std::vector<Point> pointSet;
+
 public:
     BasicIO();
     void setFile(char* fN);

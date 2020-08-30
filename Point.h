@@ -1,5 +1,6 @@
 #ifndef POINT_H_INCLUDED
 #define POINT_H_INCLUDED
+
 #include <iostream>
 #include <vector>
 #include <math.h>

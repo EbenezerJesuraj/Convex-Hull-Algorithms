@@ -1,5 +1,6 @@
 #ifndef LINE_H_INCLUDED
 #define LINE_H_INCLUDED
+
 #include <iostream>
 #include "Point.h"
 
