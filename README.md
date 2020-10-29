@@ -9,6 +9,16 @@
 
 A Complete Implementation of the Jarvis March and Graham Scan Algorithms used in Computational Geometry which fall under the Branch of Convex-Hull Algorithms..
 
+## How to Run the Program
+
+Just run the `main.cpp` file present inside the `src` Directory and then perform the OnScreen Instructions..
+
+## Contribution Guidelines
+
+### Rules/Guidelines should be followed by Open Source Contributors
+
+Refer `Contributing.md` file for more details and also the Contributors Code Structure should follow CODE_OF_CONDUCT Guidelines present in the `CODE_OF_CONDUCT.md` File..
+
 ## Authors
 
 * **Ebenezer Jesuraj** - [@EbenezerJesuraj](https://github.com/EbenezerJesuraj)
