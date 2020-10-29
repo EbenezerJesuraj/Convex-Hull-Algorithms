@@ -12,7 +12,7 @@
 # owner(s) will be requested for a review.
 *.cpp    @EbenezerJesuraj
 
-# @EbenezerJesruaj owns any files in the build/logs
+# @EbenezerJesuraj owns any files in the build/logs
 # directory at the root of the repository and any of its
 # subdirectories.
 /build/logs/ @EbenezerJesuraj
