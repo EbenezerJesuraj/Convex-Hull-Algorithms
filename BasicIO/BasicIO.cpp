@@ -1,4 +1,4 @@
-#include "BasicIO.h"
+#include "BasicIO.hpp"
 
 #include <iostream>
 #include <fstream>
@@ -13,7 +13,6 @@ void BasicIO::setFile(char* fN){
     fileName = fN;
 }
 
-// Basic IO's readFile Function's Implementation..
 void BasicIO::readFile(){
     int x,y;
     ifstream infile;
@@ -25,7 +24,6 @@ void BasicIO::readFile(){
     }
     infile.close();
 }
-// Basic IO's writeFile Function's Implementation..
 void BasicIO::writeFile(){
     ofstream outfile;
     outfile.open(fileName);
