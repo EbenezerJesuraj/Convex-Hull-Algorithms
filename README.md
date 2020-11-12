@@ -2,6 +2,7 @@
 
 ![Forks](https://img.shields.io/github/forks/Alien-Inc/Convex-Hull-Algorithms)
 ![Stars](https://img.shields.io/github/stars/Alien-Inc/Convex-Hull-Algorithms)
+[![Documentation Status](https://readthedocs.org/projects/convex-hull-algorithms/badge/?version=latest)](https://convex-hull-algorithms.readthedocs.io/en/latest/?badge=latest)
 ![Issues](https://img.shields.io/github/issues/Alien-Inc/Convex-Hull-Algorithms)
 ![License](https://img.shields.io/github/license/Alien-Inc/Convex-Hull-Algorithms)
 
