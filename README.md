@@ -25,7 +25,7 @@ Refer `Contributing.md` file for more details and also the Contributors Code Str
 
 Refer GitHub Wiki Pages for More Info,
 
-* **GitHub Wiki Pages** - [@EbenezerJesuraj](https://github.com/Alpha-Incorporated/Data-Validation-using-Merkle-Trees/wiki)
+* **GitHub Wiki Pages** - [@EbenezerJesuraj](https://github.com/Alpha-Incorporated/Convex-Hull-Algorithms/wiki)
 
 ## Authors
 
