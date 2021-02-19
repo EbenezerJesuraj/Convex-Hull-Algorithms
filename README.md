@@ -1,10 +1,11 @@
 # Convex-Hull-Algorithms
 
-![Forks](https://img.shields.io/github/forks/Alien-Inc/Convex-Hull-Algorithms)
-![Stars](https://img.shields.io/github/stars/Alien-Inc/Convex-Hull-Algorithms)
+[![CodeFactor](https://www.codefactor.io/repository/github/ebenezerjesuraj/convex-hull-algorithms/badge/master)](https://www.codefactor.io/repository/github/ebenezerjesuraj/convex-hull-algorithms/overview/master)
+![Forks](https://img.shields.io/github/forks/EbenezerJesuraj/Convex-Hull-Algorithms)
+![Stars](https://img.shields.io/github/stars/EbenezerJesuraj/Convex-Hull-Algorithms)
 [![Documentation Status](https://readthedocs.org/projects/convex-hull-algorithms/badge/?version=latest)](https://convex-hull-algorithms.readthedocs.io/en/latest/?badge=latest)
-![Issues](https://img.shields.io/github/issues/Alien-Inc/Convex-Hull-Algorithms)
-![License](https://img.shields.io/github/license/Alien-Inc/Convex-Hull-Algorithms)
+![Issues](https://img.shields.io/github/issues/EbenezerJesuraj/Convex-Hull-Algorithms)
+![License](https://img.shields.io/github/license/EbenezerJesuraj/Convex-Hull-Algorithms)
 
 ## Intro
 
