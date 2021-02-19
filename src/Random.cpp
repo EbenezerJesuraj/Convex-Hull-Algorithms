@@ -6,7 +6,6 @@
 #include <vector>
 #include <iostream>
 
-/*oi domes stis opoies apothikevode oi plirofories gia ta faces kai ta vertices*/
 
 struct FaceInfo2
 {
@@ -25,10 +24,10 @@ struct FaceInfo2
 struct VertexInfo{
 
     VertexInfo(){}
-    int color; // 1 = Kokkino, 2 = Mple, 3 = Prasino
-    bool colored; /* simbolizei to an exei xrwmatistei i korifi */
+    int color; 
+    bool colored; 
     bool can_change;
-    int the_id;  /* simbolizei to id tou kathe vertex,to opoio einai monadiko */
+    int the_id; 
 
     int get_color(){
         return color;
@@ -55,8 +54,7 @@ typedef CDT::Point                                                Point;
 typedef CGAL::Polygon_2<K>                                        Polygon_2;
 typedef CDT::Face_iterator Face_iterator;
 
-/* i trigonopiisi enos aplou poligonou odigei sekirto polugwno. Synepws xrisimopoioume aftes tis
-   duo sinartiseis gia na aferesoume ta trigwna ta opoia dn apoteloun meros tu aplou polugwnou.*/
+
 
 void mark_domains(CDT& ct,
              CDT::Face_handle start,
@@ -106,7 +104,7 @@ void mark_domains(CDT& cdt)
     }
 }
 
-/* edw ginetai i constrained triangulation */
+
 void insert_polygon(CDT& cdt,const Polygon_2& polygon){
     if ( polygon.is_empty() ) return;
     CDT::Vertex_handle v_prev=cdt.insert(*CGAL::cpp0x::prev(polygon.vertices_end()));
@@ -119,7 +117,7 @@ void insert_polygon(CDT& cdt,const Polygon_2& polygon){
     }
 }
 
-/*epistrefei ean ena stixeio iparxei se ena vector. Xrisimopoithike vector gia na apothikevetai to vertex id sto xrwma pu anikei*/
+
 bool is_inside(int x, std::vector<int> kati){
     int count = 0;
     for (int i = 0; i <= kati.size(); i++) {
@@ -138,7 +136,7 @@ bool is_inside(int x, std::vector<int> kati){
 
 int main( )
 {
-    /*eisagwgi simeiwn*/
+ /
     Polygon_2 polygon1;
     polygon1.push_back(Point(2,5));
     polygon1.push_back(Point(3,3));
@@ -169,8 +167,7 @@ int main( )
 
     int the_id = 1;
      int facelets_count = 0;
-    /*arxikopoiiseis colored,can-change(den xrisimopoiithike) kai twn vertex id
-     Episis vriskoume posa faces exoun dimiurgithei*/
+
     for (CDT::Finite_faces_iterator fit=cdt.finite_faces_begin();
          fit!=cdt.finite_faces_end();++fit)
     {
@@ -201,7 +198,7 @@ int main( )
 
     int count=0;
 
-   /*dimiurgume ta vector*/
+
     std::vector<int> red;
     std::vector<int> blue;
     std::vector<int> yellow;
@@ -215,7 +212,7 @@ int main( )
             //std::cout << count << std::endl;
 
 
-            if(count == 0){ /*An den exei mpei pote apla xromatiseta ola ta shmeia*/
+            if(count == 0){ 
 
                 fit->vertex(0)->info().color = 1;
                 red.push_back(fit->vertex(0)->info().the_id);
@@ -230,8 +227,7 @@ int main( )
                 fit->info().done = true;
 
             }else{
-                /*An to trigwno den exei ginei done, diladi den exei xwmatistei plirws, prospathei na brei tus sindiadsmous twn xrwmatwn
-                  gia na vapsei tin epomeni koryfi. Ta if xrisimopoioude gia na vrethun oloi oi sindiasmoi*/
+           
                 if(fit->info().done == false  ){
 
                     if (is_inside(fit->vertex(0)->info().the_id, blue) == true) {// BLUE
@@ -694,7 +690,7 @@ int main( )
         }
     }
     }
-    /*Ektypwseis*/
+   
     int zozela =0;
 
     for (CDT::Finite_faces_iterator fit=cdt.finite_faces_begin();
@@ -711,7 +707,6 @@ int main( )
         }
     }
 
-    /*Ipologizetai edw to xrwma pou exei xrwmatisei tis ligoteres korifes etsi wste na topothetithun saftes oi filakes.*/
     int see1 = red.size();
     int see2 = blue.size();
     int see3 = yellow.size();
