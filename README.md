@@ -1,5 +1,6 @@
 # Convex-Hull-Algorithms
 
+[![CodeFactor](https://www.codefactor.io/repository/github/ebenezerjesuraj/convex-hull-algorithms/badge/master)](https://www.codefactor.io/repository/github/ebenezerjesuraj/convex-hull-algorithms/overview/master)
 ![Forks](https://img.shields.io/github/forks/EbenezerJesuraj/Convex-Hull-Algorithms)
 ![Stars](https://img.shields.io/github/stars/EbenezerJesuraj/Convex-Hull-Algorithms)
 [![Documentation Status](https://readthedocs.org/projects/convex-hull-algorithms/badge/?version=latest)](https://convex-hull-algorithms.readthedocs.io/en/latest/?badge=latest)
